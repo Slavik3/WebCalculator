@@ -16,13 +16,6 @@ public class Calculator extends HttpServlet {
 	
 	double result = 0;
 	
-	/**
-	 * @see HttpServlet#HttpServlet()
-	 */
-	public Calculator() {
-		super();
-	}
-
 	private double calculate(double param1, double param2, short operation) {
 		switch (operation) {
 		case 1:
