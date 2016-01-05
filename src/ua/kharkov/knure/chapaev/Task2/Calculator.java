@@ -9,20 +9,13 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class Calculator
+ * test
  */
 public class Calculator extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
 	double result = 0;
 	
-	/**
-	 * @see HttpServlet#HttpServlet()
-	 */
-	public Calculator() {
-		super();
-	}
-
 	private double calculate(double param1, double param2, short operation) {
 		switch (operation) {
 		case 1:
